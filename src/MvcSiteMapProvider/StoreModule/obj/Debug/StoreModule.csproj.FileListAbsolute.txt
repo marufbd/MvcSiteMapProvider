@@ -1,0 +1,13 @@
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\obj\Debug\ResolveAssemblyReference.cache
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\bin\Debug\StoreModule.dll
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\bin\Debug\StoreModule.pdb
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\bin\Debug\DomainModels.dll
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\bin\Debug\Zephyr.dll
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\bin\Debug\Zephyr.Web.Mvc.dll
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\bin\Debug\DomainModels.pdb
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\bin\Debug\Zephyr.pdb
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\obj\Debug\StoreModule.dll
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\StoreModule\obj\Debug\StoreModule.pdb

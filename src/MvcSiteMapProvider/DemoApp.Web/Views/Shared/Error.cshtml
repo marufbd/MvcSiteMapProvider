@@ -1,0 +1,11 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Error";
+}
+
+<div class="alert alert-error">
+    <h2>Uh Oh! It looks like some error occured</h2>
+    <h4 class="alert-heading">@Model.Exception.Message</h4>
+    @Model.Exception.StackTrace
+</div>

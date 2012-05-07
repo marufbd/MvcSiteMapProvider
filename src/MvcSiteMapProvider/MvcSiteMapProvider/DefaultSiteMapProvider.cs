@@ -27,9 +27,10 @@ namespace MvcSiteMapProvider
     {
         #region Private
 
-        protected const string RootName = "mvcSiteMap";
-        protected const string NodeName = "mvcSiteMapNode";
-        protected readonly XNamespace ns = "http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-3.0";
+        public readonly string RootName = "mvcSiteMap";
+        public readonly string NodeName = "mvcSiteMapNode";
+
+        protected XNamespace ns = "https://github.com/marufbd/MvcSiteMapProvider";
         protected readonly object synclock = new object();
         protected string cacheKey = "__MVCSITEMAP_A33EF2B1-F0A4-4507-B011-94669840F79C";
         protected string aclCacheItemKey = "__MVCSITEMAP_7C881C5D-9338-4CEF-AF5F-4BA5B31EB1C0";
@@ -114,14 +115,7 @@ namespace MvcSiteMapProvider
         {
             get
             {
-                if (HttpContext.Current.Items[currentNodeCacheKey] == null)
-                {
-                    var currentNode = base.CurrentNode;
-                    HttpContext.Current.Items[currentNodeCacheKey] = currentNode;
-                    return currentNode;
-                }
-                return (SiteMapNode)HttpContext.Current.Items[currentNodeCacheKey];
-
+                return (SiteMapNode)HttpContext.Current.Items[currentNodeCacheKey] ?? base.CurrentNode;
             }
         }
 
@@ -169,7 +163,7 @@ namespace MvcSiteMapProvider
         /// </exception>
         public override bool IsAccessibleToUser(HttpContext context, SiteMapNode node)
         {
-            if ((isBuildingSiteMap && CacheDuration > 0) || !SecurityTrimmingEnabled)
+            if (isBuildingSiteMap && CacheDuration > 0)
             {
                 return true;
             }
@@ -294,11 +288,7 @@ namespace MvcSiteMapProvider
             }
             if (NodeKeyGenerator == null)
             {
-                NodeKeyGenerator =
-#if !NET35
- DependencyResolver.Current.GetService<INodeKeyGenerator>() ??
-#endif
- new DefaultNodeKeyGenerator();
+                NodeKeyGenerator = new DefaultNodeKeyGenerator();
             }
 
             // Is a controller type resolver given?
@@ -309,11 +299,7 @@ namespace MvcSiteMapProvider
             }
             if (ControllerTypeResolver == null)
             {
-                ControllerTypeResolver =
-#if !NET35
- DependencyResolver.Current.GetService<IControllerTypeResolver>() ??
-#endif
- new DefaultControllerTypeResolver();
+                ControllerTypeResolver = new DefaultControllerTypeResolver();
             }
 
             // Is an action method parameter resolver given?
@@ -324,11 +310,7 @@ namespace MvcSiteMapProvider
             }
             if (ActionMethodParameterResolver == null)
             {
-                ActionMethodParameterResolver =
-#if !NET35
- DependencyResolver.Current.GetService<IActionMethodParameterResolver>() ??
-#endif
- new DefaultActionMethodParameterResolver();
+                ActionMethodParameterResolver = new DefaultActionMethodParameterResolver();
             }
 
             // Is an acl module given?
@@ -339,11 +321,7 @@ namespace MvcSiteMapProvider
             }
             if (AclModule == null)
             {
-                AclModule =
-#if !NET35
- DependencyResolver.Current.GetService<IAclModule>() ??
-#endif
- new DefaultAclModule();
+                AclModule = new DefaultAclModule();
             }
 
             // Is a SiteMapNode URL resolver given?
@@ -354,11 +332,7 @@ namespace MvcSiteMapProvider
             }
             if (SiteMapNodeUrlResolver == null)
             {
-                SiteMapNodeUrlResolver =
-#if !NET35
- DependencyResolver.Current.GetService<ISiteMapNodeUrlResolver>() ??
-#endif
- new DefaultSiteMapNodeUrlResolver();
+                SiteMapNodeUrlResolver = new DefaultSiteMapNodeUrlResolver();
             }
 
             // Is a SiteMapNode visibility provider given?
@@ -369,11 +343,7 @@ namespace MvcSiteMapProvider
             }
             if (SiteMapNodeVisibilityProvider == null)
             {
-                SiteMapNodeVisibilityProvider =
-#if !NET35
- DependencyResolver.Current.GetService<ISiteMapNodeVisibilityProvider>() ??
-#endif
- new DefaultSiteMapNodeVisibilityProvider();
+                SiteMapNodeVisibilityProvider = new DefaultSiteMapNodeVisibilityProvider();
             }
 
             // Is a SiteMapProvider event handler given?
@@ -384,11 +354,7 @@ namespace MvcSiteMapProvider
             }
             if (SiteMapProviderEventHandler == null)
             {
-                SiteMapProviderEventHandler =
-#if !NET35
- DependencyResolver.Current.GetService<ISiteMapProviderEventHandler>() ??
-#endif
- new DefaultSiteMapProviderEventHandler();
+                SiteMapProviderEventHandler = new DefaultSiteMapProviderEventHandler();
             }
         }
 
@@ -444,40 +410,44 @@ namespace MvcSiteMapProvider
         /// </exception>
         protected override void AddNode(SiteMapNode node, SiteMapNode parentNode)
         {
-            try
+            if (SiteMapProviderEventHandler.OnAddingSiteMapNode(new SiteMapProviderEventContext(this, node, parentNode)))
             {
-                // Avoid issue with url table not clearing correctly.
-                if (base.FindSiteMapNode(node.Url) != null)
-                {
-                    base.RemoveNode(node);
-                }
-
-                // Allow for external URLs
-                var encoded = EncodeExternalUrl(node);
-
-                // Add the node
                 try
                 {
-                    base.AddNode(node, parentNode);
-                }
-                catch
-                {
-                    if (parentNode != null) base.RemoveNode(parentNode);
-                    base.AddNode(node, parentNode);
-                }
+                    // Avoid issue with url table not clearing correctly.
+                    if (base.FindSiteMapNode(node.Url) != null)
+                    {
+                        base.RemoveNode(node);
+                    }
 
-                // Restore the external URL
-                if (encoded)
-                {
-                    DecodeExternalUrl(node);
+                    // Allow for external URLs
+                    var encoded = EncodeExternalUrl(node);
+
+                    // Add the node
+                    try
+                    {
+                        base.AddNode(node, parentNode);
+                    }
+                    catch
+                    {
+                        if (parentNode != null) base.RemoveNode(parentNode);
+                        base.AddNode(node, parentNode);
+                    }
+
+                    // Restore the external URL
+                    if (encoded)
+                    {
+                        DecodeExternalUrl(node);
+                    }
                 }
-            }
-            catch (InvalidOperationException)
-            {
-                if (!isBuildingSiteMap)
+                catch (InvalidOperationException)
                 {
-                    throw;
+                    if (!isBuildingSiteMap)
+                    {
+                        throw;
+                    }
                 }
+                SiteMapProviderEventHandler.OnAddedSiteMapNode(new SiteMapProviderEventContext(this, node, root));
             }
         }
 
@@ -505,7 +475,7 @@ namespace MvcSiteMapProvider
         /// Namespace of the site map file
         /// </summary>
         /// <value>The site map namespace.</value>
-        protected virtual XNamespace SiteMapNamespace
+        public virtual XNamespace SiteMapNamespace
         {
             get { return ns; }
         }
@@ -524,7 +494,7 @@ namespace MvcSiteMapProvider
             // Return immediately if this method has been called before
             if (root != null) //  && (HttpContext.Current.Cache[cacheKey] != null || isBuildingSiteMap)
             {
-                return root;
+                //return root;
             }
 
             // Build sitemap
@@ -714,7 +684,7 @@ namespace MvcSiteMapProvider
         /// </summary>
         /// <param name="rootNode">The main root sitemap node.</param>
         /// <param name="rootElement">The main root XML element.</param>
-        protected void ProcessXmlNodes(SiteMapNode rootNode, XElement rootElement)
+        public void ProcessXmlNodes(SiteMapNode rootNode, XElement rootElement)
         {
             SiteMapNode childNode = rootNode;
 
@@ -730,7 +700,7 @@ namespace MvcSiteMapProvider
 
                     //if (childNode.ParentNode != null && childNode.ParentNode != rootNode)
                     //{
-                    //   parentNode = childNode.ParentNode;
+                    //    parentNode = childNode.ParentNode;
                     //}
 
                     if (!HasDynamicNodes(childNode))
@@ -791,10 +761,10 @@ namespace MvcSiteMapProvider
                     if (attribute != null)
                     {
                         assemblyNodes.Add(new MvcSiteMapNodeAttributeDefinitionForController
-                                              {
-                                                  SiteMapNodeAttribute = attribute,
-                                                  ControllerType = type
-                                              });
+                        {
+                            SiteMapNodeAttribute = attribute,
+                            ControllerType = type
+                        });
                     }
                 }
                 catch
@@ -815,11 +785,11 @@ namespace MvcSiteMapProvider
                         foreach (var attribute in attributes)
                         {
                             assemblyNodes.Add(new MvcSiteMapNodeAttributeDefinitionForAction
-                                                  {
-                                                      SiteMapNodeAttribute = attribute,
-                                                      ControllerType = type,
-                                                      ActionMethodInfo = method
-                                                  });
+                            {
+                                SiteMapNodeAttribute = attribute,
+                                ControllerType = type,
+                                ActionMethodInfo = method
+                            });
                         }
                     }
                 }
@@ -976,7 +946,7 @@ namespace MvcSiteMapProvider
                 string key = dynamicNode.Key;
                 if (string.IsNullOrEmpty(key))
                 {
-                    key = NodeKeyGenerator.GenerateKey(parentNode == null ? "" : parentNode.Key, Guid.NewGuid().ToString(), mvcNode.Url, mvcNode.Title, mvcNode.Area, mvcNode.Controller, mvcNode.Action, mvcNode.Clickable);
+                    key = NodeKeyGenerator.GenerateKey(mvcNode.ParentNode==null?String.Empty:mvcNode.ParentNode.Key, Guid.NewGuid().ToString(), mvcNode.Url, mvcNode.Title, mvcNode.Area, mvcNode.Controller, mvcNode.Action, mvcNode.Clickable);
                 }
 
                 var clone = mvcNode.Clone(key) as MvcSiteMapNode;
@@ -1005,22 +975,12 @@ namespace MvcSiteMapProvider
                 }
                 if (!string.IsNullOrEmpty(dynamicNode.ImageUrl))
                 {
-                    clone.ImageUrl = dynamicNode.ImageUrl;
+                    clone.Title = dynamicNode.ImageUrl;
                 }
 
                 if (!string.IsNullOrEmpty(dynamicNode.Route))
                 {
                     clone.Route = dynamicNode.Route;
-                }
-
-                if (dynamicNode.LastModifiedDate.HasValue)
-                {
-                    clone.LastModifiedDate = dynamicNode.LastModifiedDate.Value;
-                }
-
-                if (dynamicNode.ChangeFrequency != ChangeFrequency.Undefined)
-                {
-                    clone.ChangeFrequency = dynamicNode.ChangeFrequency;
                 }
 
                 if (dynamicNode.PreservedRouteParameters.Any())
@@ -1160,7 +1120,8 @@ namespace MvcSiteMapProvider
                     requestContext, routeData.Values);
                 string appPathPrefix = (requestContext.HttpContext.Request.ApplicationPath
                     ?? string.Empty).TrimEnd('/') + "/";
-                node = base.FindSiteMapNode(httpContext.Request.RawUrl) as MvcSiteMapNode;
+                node = base.FindSiteMapNode(
+                    requestContext.HttpContext.Response.ApplyAppPathModifier(appPathPrefix + vpd.VirtualPath)) as MvcSiteMapNode;
 
                 if (!routeData.Values.ContainsKey("area"))
                 {
@@ -1337,7 +1298,7 @@ namespace MvcSiteMapProvider
         /// <param name="node">The element to map.</param>
         /// <param name="parentNode">The parent SiteMapNode</param>
         /// <returns>An MvcSiteMapNode which represents the XMLElement.</returns>
-        protected MvcSiteMapNode GetSiteMapNodeFromXmlElement(XElement node, SiteMapNode parentNode)
+        public virtual MvcSiteMapNode GetSiteMapNodeFromXmlElement(XElement node, SiteMapNode parentNode)
         {
             // Get area, controller and action from node declaration
             string area = node.GetAttributeValue("area");
@@ -1472,7 +1433,6 @@ namespace MvcSiteMapProvider
                 }
             }
 
-            siteMapNode.ParentNode = parentMvcNode;
             return siteMapNode;
         }
 
@@ -1679,7 +1639,7 @@ namespace MvcSiteMapProvider
         /// <param name="attributeName">Attribute name</param>
         /// <param name="text">Text</param>
         /// <param name="collection">NameValueCollection to be used for localization</param>
-        private static void HandleResourceAttribute(string attributeName, ref string text, ref NameValueCollection collection)
+        protected static void HandleResourceAttribute(string attributeName, ref string text, ref NameValueCollection collection)
         {
             if (!string.IsNullOrEmpty(text))
             {

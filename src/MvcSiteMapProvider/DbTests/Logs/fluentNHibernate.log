@@ -1,0 +1,103 @@
+Fluent Mappings
+---------------
+
+Sources scanned:
+
+  None found
+
+Conventions
+-----------
+
+Sources scanned:
+
+  None found
+
+Automapping
+-----------
+
+Skipped types:
+
+  <>c__DisplayClass0             | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.Controllers.SimpleAccountController+<>c__DisplayClass0, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  <>c__DisplayClass1             | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Configuration.ZephyrConfig+<>c__DisplayClass1, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                       
+  <>c__DisplayClass10            | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Domain.BaseObject+<>c__DisplayClass10, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                               
+  <>c__DisplayClass5             | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.NHibernateSession+<>c__DisplayClass5, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                      
+  <>c__DisplayClass7             | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.NHibernateSession+<>c__DisplayClass5+<>c__DisplayClass7, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null   
+  <>f__AnonymousType0`2          | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | <>f__AnonymousType0`2, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                                      
+  <>f__AnonymousType0`3          | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | <>f__AnonymousType0`3, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                               
+  <>f__AnonymousType1`2          | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | <>f__AnonymousType1`2, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                                      
+  <Index>o__SiteContainer0       | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.Controllers.HomeController+<Index>o__SiteContainer0, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null   
+  AccountController              | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.Controllers.AccountController, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                         
+  AndSpecification`1             | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Specification.AndSpecification`1, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                    
+  AssertionException             | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.DesignByContract.AssertionException, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                 
+  AuditUpdateListener            | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.EventListeners.AuditUpdateListener, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                        
+  AutoPersistenceModelGenerator  | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.AutoPersistenceModelGenerator, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                             
+  BaseObject                     | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Domain.BaseObject, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                                   
+  BaseObjectEqualityComparer`1   | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Domain.BaseObjectEqualityComparer`1, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                 
+  BookMappingOverride            | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.DomainModels.MapOverrides.BookMappingOverride, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null         
+  ChangePasswordModel            | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.Models.ChangePasswordModel, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                            
+  Check                          | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.DesignByContract.Check, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                              
+  DataConfig                     | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Configuration.DataConfig, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                            
+  DbCommandProxy                 | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.ProfiledSqlCeDriver+DbCommandProxy, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                        
+  DeletedFilter                  | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.Mapping.Filter.DeletedFilter, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                              
+  DesignByContractException      | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.DesignByContract.DesignByContractException, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                          
+  DomainSignatureAttribute       | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Domain.DomainSignatureAttribute, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                     
+  Entity                         | Skipped by IgnoreBase                                                    | Zephyr.Domain.Entity, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                                       
+  Entity                         | Skipped by IgnoreBase                                                    | Zephyr.Domain.Entity, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                                       
+  Entity                         | Skipped by IgnoreBase                                                    | Zephyr.Domain.Entity, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                                       
+  Entity                         | Skipped by IgnoreBase                                                    | Zephyr.Domain.Entity, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                                       
+  Entity                         | Skipped by IgnoreBase                                                    | Zephyr.Domain.Entity, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                                       
+  Entity                         | Skipped by IgnoreBase                                                    | Zephyr.Domain.Entity, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                                       
+  EntityConvention               | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.Mapping.Conventions.EntityConvention, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                      
+  EntityWithTypedId`1            | Skipped by IAutomappingConfiguration.AbstractClassIsLayerSupertype(Type) | Zephyr.Domain.EntityWithTypedId`1, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                          
+  FrameworkMappingConfiguration  | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.FrameworkMappingConfiguration, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                             
+  HasManyConvention              | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.Mapping.Conventions.HasManyConvention, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                     
+  HomeController                 | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.Controllers.HomeController, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                            
+  IAuditable                     | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Domain.IAuditable, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                                   
+  IAutoPersistenceModelGenerator | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.IAutoPersistenceModelGenerator, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                            
+  IEntityWithTypedId`1           | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Domain.IEntityWithTypedId`1, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                         
+  IHasAssignedId`1               | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Domain.IHasAssignedId`1, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                             
+  InvariantException             | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.DesignByContract.InvariantException, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                 
+  IRepository`1                  | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.Repository.Contract.IRepository`1, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                              
+  ISpecification`1               | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Specification.ISpecification`1, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                      
+  LogOnModel                     | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.Models.LogOnModel, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                     
+  MiniProfilerPackage            | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.App_Start.MiniProfilerPackage, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                         
+  MiniProfilerStartupModule      | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.App_Start.MiniProfilerStartupModule, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                   
+  MvcApplication                 | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.MvcApplication, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                        
+  NHibernateSession              | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.NHibernateSession, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                         
+  NhRepository`1                 | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.Repository.NhRepository`1, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                      
+  NotSpecification`1             | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Specification.NotSpecification`1, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                    
+  OrSpecification`1              | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Specification.OrSpecification`1, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                     
+  PermissionType                 | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.DomainModels.PermissionType, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                           
+  PostconditionException         | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.DesignByContract.PostconditionException, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                             
+  PreconditionException          | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.DesignByContract.PreconditionException, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                              
+  PrimaryKeyConvention           | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.Mapping.Conventions.PrimaryKeyConvention, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                  
+  ProfiledSqlCeDriver            | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.ProfiledSqlCeDriver, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                       
+  PublisherController            | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.Controllers.PublisherController, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                       
+  PublisherMappingOverride       | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.DomainModels.MapOverrides.PublisherMappingOverride, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null    
+  ReferenceConvention            | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.Mapping.Conventions.ReferenceConvention, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                   
+  RegisterModel                  | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.Models.RegisterModel, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                  
+  SimpleAccountController        | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.Controllers.SimpleAccountController, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                   
+  SoftDeleteListener             | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.EventListeners.SoftDeleteListener, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                         
+  StoreController                | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.Controllers.StoreController, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                           
+  TableNameConvention            | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.Mapping.Conventions.TableNameConvention, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                   
+  TenantFilter                   | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Data.NHib.Mapping.Filter.TenantFilter, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                               
+  ValidatableObject              | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Domain.ValidatableObject, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                            
+  ValueObject                    | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Domain.ValueObject, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                                  
+  VmBook                         | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | NHAutoMvcDemo.Models.VmBook, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                         
+  ZephyrConfig                   | Skipped by result of IAutomappingConfiguration.ShouldMap(Type)           | Zephyr.Configuration.ZephyrConfig, Zephyr, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null                                          
+
+Candidate types:
+
+  Author    | NHAutoMvcDemo.DomainModels.Author, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null   
+  Book      | NHAutoMvcDemo.DomainModels.Book, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null     
+  Publisher | NHAutoMvcDemo.DomainModels.Publisher, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  Tag       | NHAutoMvcDemo.DomainModels.Tag, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null      
+  User      | NHAutoMvcDemo.DomainModels.User, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null     
+
+Mapped types:
+
+  Author    | NHAutoMvcDemo.DomainModels.Author, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null   
+  Book      | NHAutoMvcDemo.DomainModels.Book, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null     
+  Publisher | NHAutoMvcDemo.DomainModels.Publisher, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  Tag       | NHAutoMvcDemo.DomainModels.Tag, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null      
+  User      | NHAutoMvcDemo.DomainModels.User, NHAutoMvcDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null     

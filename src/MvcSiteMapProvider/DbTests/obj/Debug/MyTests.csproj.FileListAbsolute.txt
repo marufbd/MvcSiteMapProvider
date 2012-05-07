@@ -1,0 +1,63 @@
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\MyTests.dll
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\MyTests.pdb
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\MyFrameWork.dll
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\FluentNHibernate.dll
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\NHibernate.dll
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\inflector_extension.dll
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\MyFrameWork.pdb
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\FluentNHibernate.pdb
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\NHibernate.xml
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\obj\Debug\MyTests.dll
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\obj\Debug\MyTests.pdb
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\Iesi.Collections.dll
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\Iesi.Collections.xml
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\MyTests.dll.config
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\NHAutoMvcDemo.dll
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\NHAutoMvcDemo.pdb
+C:\Users\latifur.rahman\documents\visual studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\MyTests\bin\Debug\nHibernate.config
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\nHibernate.config
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\MyTests.dll.config
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\MyTests.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\MyTests.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\Iesi.Collections.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\MyFrameWork.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\NHAutoMvcDemo.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\NHibernate.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\FluentNHibernate.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\inflector_extension.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\MyFrameWork.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\NHAutoMvcDemo.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\Iesi.Collections.xml
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\NHibernate.xml
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\FluentNHibernate.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\obj\Debug\MyTests.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\obj\Debug\MyTests.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\WebActivator.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\MvcMiniProfiler.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\MvcMiniProfiler.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\MyTests\bin\Debug\MvcMiniProfiler.xml
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\nHibernate.config
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\MyTests.dll.config
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\MyTests.dll
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\MyTests.pdb
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\Iesi.Collections.dll
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\NHAutoMvcDemo.dll
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\NHibernate.dll
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\System.Data.SqlServerCe.dll
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\MvcMiniProfiler.dll
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\inflector_extension.dll
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\WebActivator.dll
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\NHAutoMvcDemo.pdb
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\Iesi.Collections.xml
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\NHibernate.xml
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\MvcMiniProfiler.pdb
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\MvcMiniProfiler.xml
+D:\MyDev\Projects\DefaultDDDArch\MyTests\obj\Debug\ResolveAssemblyReference.cache
+D:\MyDev\Projects\DefaultDDDArch\MyTests\obj\Debug\MyTests.dll
+D:\MyDev\Projects\DefaultDDDArch\MyTests\obj\Debug\MyTests.pdb
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\Zephyr.dll
+D:\MyDev\Projects\DefaultDDDArch\MyTests\bin\Debug\Zephyr.pdb

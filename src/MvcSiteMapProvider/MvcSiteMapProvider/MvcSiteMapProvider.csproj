@@ -48,9 +48,6 @@
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>MvcSiteMapProvider.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
-  <ItemGroup Condition=" '$(DefineConstants)' == 'NET35' ">
-    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
-  </ItemGroup>
   <ItemGroup Condition=" '$(DefineConstants)' != 'NET35' ">
     <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
   </ItemGroup>
@@ -76,6 +73,9 @@
     <Compile Include="External\ObjectCopier.cs" />
     <Compile Include="Filters\AttributeTarget.cs" />
     <Compile Include="Filters\SiteMapTitleTarget.cs" />
+    <Compile Include="MultiModuleProvider\ZephyrMvcSiteMapNode.cs" />
+    <Compile Include="MultiModuleProvider\SiteMapProviderEventHandler.cs" />
+    <Compile Include="MultiModuleProvider\ZephyrSiteMapProvider.cs" />
     <Compile Include="UrlResolverException.cs" />
     <Compile Include="DefaultSiteMapNodeUrlResolver.cs" />
     <Compile Include="DefaultSiteMapProviderEventHandler.cs" />

@@ -1,8 +1,28 @@
+
+#Fork documentation
+The MvcSiteMapprovider provides the ability to annotate the controller actions with attributes and we can define these controllers in multiple modules
+However, i would have liked to provide the same file based Mvc.Sitemap feature for multiple assemblies, because in many large enterprise applications controllers and even domain models 
+may need to be distributed among different assemblies. Having the ability to have each of these module different Mvc.Sitemap file without adorning the controllers gives us some flexibility.
+Then we can merge the whole sitemap tree in the main web project file to build a single sitemap.
+
+We need to define the other Assembly sitemap file as embedded resource to parse it through reflection.
+A demo application is provided with the source to demonstrate the feature.
+Main web project is DemoApp.Web
+A demo module is StoreModule project each contains its Mvc.Sitemap file.
+
+In the main web sitemap file a line 
+<!--Sitemap from Store Module-->
+<mvcSiteMapNode title="Books" moduleName="StoreModule"/>
+
+embeds the sitemap from StoreModule assembly.
+
+The Demo application uses a framework [Zephyr](https://github.com/marufbd/DefaultDDDArch) ORM data access repository etc.
+DomainModels is made as a separate common project which every module refers
+
+#Original Source Documentation
+
 # MvcSiteMapProvider
 An ASP.NET MVC SiteMapProvider implementation for the ASP.NET MVC framework.
-
-## Like this project?
-[<img src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif">](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C8GLSG8E33NA4) via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C8GLSG8E33NA4).
 
 ## What can it be used for?
 MvcSiteMapProvider is, as the name implies, an ASP.NET MVC SiteMapProvider implementation for the ASP.NET MVC framework. Targeted at ASP.NET MVC 2, it provides sitemap XML functionality and interoperability with the classic ASP.NET sitemap controls, like the SiteMapPath control for rendering breadcrumbs and the Menu control.

@@ -1,0 +1,6 @@
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DomainModels\obj\Debug\ResolveAssemblyReference.cache
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DomainModels\bin\Debug\DomainModels.dll
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DomainModels\bin\Debug\DomainModels.pdb
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DomainModels\bin\Debug\Zephyr.dll
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DomainModels\obj\Debug\DomainModels.dll
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DomainModels\obj\Debug\DomainModels.pdb

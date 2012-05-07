@@ -1,0 +1,65 @@
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\NHAutoMvcDemo.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\NHAutoMvcDemo.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\EntityFramework.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\FluentNHibernate.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\Iesi.Collections.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\MyFrameWork.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\NHibernate.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\inflector_extension.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\MyFrameWork.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\EntityFramework.xml
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\FluentNHibernate.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\Iesi.Collections.xml
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\NHibernate.xml
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\obj\Debug\NHAutoMvcDemo.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\obj\Debug\NHAutoMvcDemo.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\System.Data.SqlServerCe.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\NHAutoMvcDemo\NHAutoMvcDemo\bin\Microsoft.Web.Mvc.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\nHibernate.config
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\NHAutoMvcDemo.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\NHAutoMvcDemo.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\FluentNHibernate.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\Iesi.Collections.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\MyFrameWork.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\NHibernate.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\System.Data.SqlServerCe.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\inflector_extension.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\MyFrameWork.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\FluentNHibernate.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\Iesi.Collections.xml
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\NHibernate.xml
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\obj\Debug\NHAutoMvcDemo.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\obj\Debug\NHAutoMvcDemo.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\MvcMiniProfiler.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\WebActivator.dll
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\MvcMiniProfiler.pdb
+C:\Users\latifur.rahman\Documents\Visual Studio 2010\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\MvcMiniProfiler.xml
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\nHibernate.config
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\NHAutoMvcDemo.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\NHAutoMvcDemo.pdb
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\FluentNHibernate.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\Iesi.Collections.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\Microsoft.Web.Infrastructure.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\Microsoft.Web.Mvc.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\MvcMiniProfiler.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\MvcSiteMapProvider.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\NHibernate.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\System.Data.SqlServerCe.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\WebActivator.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\Zephyr.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\inflector_extension.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\Zephyr.pdb
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\FluentNHibernate.pdb
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\Iesi.Collections.xml
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\MvcMiniProfiler.pdb
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\MvcMiniProfiler.xml
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\MvcSiteMapProvider.xml
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\NHibernate.xml
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\obj\Debug\ResolveAssemblyReference.cache
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\obj\Debug\NHAutoMvcDemo.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\obj\Debug\NHAutoMvcDemo.pdb
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\Zephyr.Web.Mvc.dll
+D:\MyDev\Projects\DefaultDDDArch\NHAutoMvcDemo\bin\Zephyr.Web.Mvc.pdb

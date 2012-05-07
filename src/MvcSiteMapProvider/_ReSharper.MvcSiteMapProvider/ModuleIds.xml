@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="C83FE52C-47DD-4433-B34E-9C9D72BBFFA1" ModuleId="MvcMusicStore" />
+  <Module PersistentId="80A397D7-7BDD-4538-8D87-34E90B4FB4B2" ModuleId="MvcSiteMapProvider" />
+  <Module PersistentId="507EE0F1-2183-4C42-8A7F-568CA0E24197" ModuleId="StoreModule" />
+  <Module PersistentId="60B2CF98-AE23-49EE-911D-789A04709AFF" ModuleId="DemoApp.Web" />
+  <Module PersistentId="A910E188-AD89-4191-9489-182FCF8388DB" ModuleId="DomainModels" />
+</Modules>

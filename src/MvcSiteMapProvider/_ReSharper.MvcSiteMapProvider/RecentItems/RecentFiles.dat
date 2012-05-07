@@ -1,0 +1,64 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="1112BF40-200B-4180-B63E-50D758145293/f:Breaking changes.txt/s:..?Breaking changes.txt" caret="0" fromTop="0" />
+    <File id="A910E188-AD89-4191-9489-182FCF8388DB/f:Author.cs" caret="875" fromTop="8" />
+    <File id="A910E188-AD89-4191-9489-182FCF8388DB/f:Book.cs" caret="1280" fromTop="22" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Controllers/f:SimpleAccountController.cs" caret="425" fromTop="14" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:DomainModels/d:MapOverrides/f:BookMappingOverride.cs" caret="1066" fromTop="14" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:ViewModels/f:VmBook.cs" caret="917" fromTop="22" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:DomainModels/d:MapOverrides/f:PublisherMappingOverride.cs" caret="775" fromTop="6" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/d:Store/f:SaveBook.cshtml" caret="549" fromTop="14" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/d:Publisher/f:List.cshtml" caret="0" fromTop="0" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/d:Publisher/f:Edit.cshtml" caret="0" fromTop="0" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/f:nHibernate.config" caret="0" fromTop="0" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:ZephyrMvcSiteMapNode.cs" caret="490" fromTop="20" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/f:Web.config" caret="994" fromTop="10" />
+    <File id="A910E188-AD89-4191-9489-182FCF8388DB/f:Publisher.cs" caret="817" fromTop="20" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/f:Web.config" caret="1213" fromTop="23" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:ZephyrSiteMapProvider.cs" caret="1468" fromTop="18" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:SiteMapProviderEventHandler.cs" caret="1965" fromTop="14" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/f:DefaultSiteMapProvider.cs" caret="769" fromTop="15" />
+    <File id="507EE0F1-2183-4C42-8A7F-568CA0E24197/f:Mvc.sitemap" caret="172" fromTop="2" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/f:Mvc.sitemap" caret="231" fromTop="3" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/d:Publisher/f:Details.cshtml" caret="53" fromTop="2" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/d:Store/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/d:Store/f:Details.cshtml" caret="0" fromTop="0" />
+    <File id="A910E188-AD89-4191-9489-182FCF8388DB/f:User.cs" caret="796" fromTop="11" />
+    <File id="507EE0F1-2183-4C42-8A7F-568CA0E24197/d:Controllers/f:PublisherController.cs" caret="327" fromTop="10" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/d:Store/f:List.cshtml" caret="1057" fromTop="19" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/f:Global.asax.cs" caret="679" fromTop="15" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:SiteMapProviderEventHandler.cs" caret="2793" fromTop="68" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:SiteMapProviderEventHandler.cs" caret="935" fromTop="20" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/f:DefaultSiteMapProvider.cs" caret="71349" fromTop="29" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/f:DefaultSiteMapProvider.cs" caret="71349" fromTop="40" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:ZephyrMvcSiteMapNode.cs" caret="779" fromTop="21" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:ZephyrSiteMapProvider.cs" caret="1761" fromTop="17" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:ZephyrSiteMapProvider.cs" caret="2181" fromTop="25" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:ZephyrSiteMapProvider.cs" caret="2880" fromTop="22" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:ZephyrSiteMapProvider.cs" caret="3080" fromTop="26" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/f:DefaultSiteMapProvider.cs" caret="40216" fromTop="0" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/f:DefaultSiteMapProvider.cs" caret="55337" fromTop="21" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/f:DefaultSiteMapProvider.cs" caret="65618" fromTop="21" />
+    <File id="507EE0F1-2183-4C42-8A7F-568CA0E24197/f:Mvc.sitemap" caret="910" fromTop="16" />
+    <File id="507EE0F1-2183-4C42-8A7F-568CA0E24197/f:Mvc.sitemap" caret="173" fromTop="2" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/f:Mvc.sitemap" caret="172" fromTop="2" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:SiteMapProviderEventHandler.cs" caret="2116" fromTop="21" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/f:Web.config" caret="4491" fromTop="30" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/f:Web.config" caret="992" fromTop="10" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/d:Shared/f:_Layout.cshtml" caret="880" fromTop="0" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/f:Web.config" caret="3931" fromTop="21" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/f:Web.config" caret="1213" fromTop="23" />
+    <File id="507EE0F1-2183-4C42-8A7F-568CA0E24197/f:Mvc.sitemap" caret="397" fromTop="6" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/f:Mvc.sitemap" caret="1409" fromTop="21" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/f:Mvc.sitemap" caret="473" fromTop="9" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/f:Mvc.sitemap" caret="1000" fromTop="18" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:ZephyrSiteMapProvider.cs" caret="1480" fromTop="19" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/f:DefaultSiteMapProvider.cs" caret="841" fromTop="15" />
+    <File id="80A397D7-7BDD-4538-8D87-34E90B4FB4B2/d:MultiModuleProvider/f:ZephyrSiteMapProvider.cs" caret="1468" fromTop="18" />
+    <File id="507EE0F1-2183-4C42-8A7F-568CA0E24197/d:Controllers/f:PublisherController.cs" caret="1088" fromTop="36" />
+    <File id="60B2CF98-AE23-49EE-911D-789A04709AFF/d:Views/d:Store/f:List.cshtml" caret="1029" fromTop="19" />
+  </RecentEdits>
+</RecentFiles>

@@ -1,0 +1,14 @@
+﻿@using DemoApp.Web.Controllers
+
+@{
+    ViewBag.Title = "Store / Home";
+}
+
+<h2>Store Home here</h2>
+
+<ul>
+    <li>@Html.ActionLink("List Books", "List")</li>
+    <li>@(Html.ActionLink<StoreController>(c=>c.AddBook(), "Add new Book"))</li> 
+    <br/>
+    <li>@(Html.ActionLink<StoreController>(c=>c.Filter(), "Filter Book List"))</li>
+</ul>
