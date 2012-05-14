@@ -20,7 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{577FD9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp.Web", "DemoApp.Web\DemoApp.Web.csproj", "{60B2CF98-AE23-49EE-911D-789A04709AFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreModule", "StoreModule\StoreModule.csproj", "{507EE0F1-2183-4C42-8A7F-568CA0E24197}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublisherModule", "StoreModule\PublisherModule.csproj", "{507EE0F1-2183-4C42-8A7F-568CA0E24197}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModels", "DomainModels\DomainModels.csproj", "{A910E188-AD89-4191-9489-182FCF8388DB}"
 EndProject

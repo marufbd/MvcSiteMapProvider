@@ -1441,6 +1441,11 @@
             Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.
             </summary>
         </member>
+        <member name="T:MvcSiteMapProvider.MultiModuleProvider.SiteMapProviderEventHandler">
+            <summary>
+            Event handler to add nodes from multiple assemblies Mvc.Sitemap files embedded resources
+            </summary>
+        </member>
         <member name="T:MvcSiteMapProvider.ControllerExtensions">
             <summary>
             ControllerExtensions
@@ -1844,6 +1849,11 @@
             	<c>true</c> if the specified node is visible; otherwise, <c>false</c>.
             </returns>
         </member>
+        <member name="T:MvcSiteMapProvider.MultiModuleProvider.ZephyrSiteMapProvider">
+            <summary>
+            Adds support for integrating MvcSitemap.sitemap file from multiple assemblies
+            </summary>
+        </member>
         <member name="T:MvcSiteMapProvider.Filters.AttributeTarget">
             <summary>
             AttributeTarget
@@ -1946,6 +1956,205 @@
             <returns>
             A key represented as a <see cref="T:System.String"/> instance 
             </returns>
+        </member>
+        <member name="T:MvcSiteMapProvider.MultiModuleProvider.ZephyrMvcSiteMapNode">
+            <summary>
+            MvcSiteMapNode class
+            </summary>
+        </member>
+        <member name="T:MvcSiteMapProvider.MvcSiteMapNode">
+            <summary>
+            MvcSiteMapNode class
+            </summary>
+        </member>
+        <member name="M:MvcSiteMapProvider.MvcSiteMapNode.#ctor(System.Web.SiteMapProvider,System.String,System.Collections.Specialized.NameValueCollection,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MvcSiteMapProvider.MvcSiteMapNode"/> class.
+            </summary>
+            <param name="provider">The provider.</param>
+            <param name="key">The key.</param>
+            <param name="explicitResourceKeys">The explicit resource keys.</param>
+            <param name="implicitResourceKey">The implicit resource key.</param>
+        </member>
+        <member name="M:MvcSiteMapProvider.MvcSiteMapNode.Clone">
+            <summary>
+            Creates a new node that is a copy of the current node.
+            </summary>
+            <returns>
+            A new node that is a copy of the current node.
+            </returns>
+        </member>
+        <member name="M:MvcSiteMapProvider.MvcSiteMapNode.Clone(System.String)">
+            <summary>
+            Creates a new node that is a copy of the current node with a specified key.
+            </summary>
+            <param name="key">The key.</param>
+            <returns>
+            A new node that is a copy of the current node.
+            </returns>
+        </member>
+        <member name="M:MvcSiteMapProvider.MvcSiteMapNode.GetRouteData(System.Web.HttpContextBase)">
+            <summary>
+            Gets the route data associated with the current node.
+            </summary>
+            <param name="httpContext">The HTTP context.</param>
+            <returns>The route data associated with the current node.</returns>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.MetaAttributes">
+            <summary>
+            Gets the meta attributes.
+            </summary>
+            <value>The meta attributes.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Route">
+            <summary>
+            Gets or sets the route.
+            </summary>
+            <value>The route.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Area">
+            <summary>
+            Gets or sets the area.
+            </summary>
+            <value>The area.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Controller">
+            <summary>
+            Gets or sets the controller.
+            </summary>
+            <value>The controller.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Action">
+            <summary>
+            Gets or sets the action.
+            </summary>
+            <value>The action.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Clickable">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:MvcSiteMapProvider.MvcSiteMapNode"/> is clickable.
+            </summary>
+            <value><c>true</c> if clickable; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.LastModifiedDate">
+            <summary>
+            Gets or sets the last modified date.
+            </summary>
+            <value>The last modified date.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.ChangeFrequency">
+            <summary>
+            Gets or sets the change frequency.
+            </summary>
+            <value>The change frequency.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.UpdatePriority">
+            <summary>
+            Gets or sets the update priority.
+            </summary>
+            <value>The update priority.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.TargetFrame">
+            <summary>
+            Gets or sets the target frame.
+            </summary>
+            <value>The target frame.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.ImageUrl">
+            <summary>
+            Gets or sets the image URL.
+            </summary>
+            <value>The image URL.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.DynamicNodeProvider">
+            <summary>
+            Gets or sets the dynamic node provider.
+            </summary>
+            <value>The dynamic node provider.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.UrlResolver">
+            <summary>
+            Gets or sets the site map node URL resolver.
+            </summary>
+            <value>The site map node URL resolver.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.VisibilityProvider">
+            <summary>
+            Gets or sets the visibility provider.
+            </summary>
+            <value>The visibility provider.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.PreservedRouteParameters">
+            <summary>
+            Gets or sets the preserved route parameter names (= values that will be used from the current request route).
+            </summary>
+            <value>
+            The preserved route parameter names.
+            </value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.InheritedRouteParameters">
+            <summary>
+            Gets or sets the inherited route parameters (= Route values that should be inherited from the parent sitemap node. This is not a replacement for the SiteMapPreserveRouteDataAttribute.)
+            </summary>
+            <value>
+            The inherited route parameters.
+            </value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.RouteValues">
+            <summary>
+            Gets or sets the route values.
+            </summary>
+            <value>The route values.</value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Url">
+            <summary>
+            Gets or sets the URL of the page that the <see cref="T:System.Web.SiteMapNode"/> object represents.
+            </summary>
+            <value></value>
+            <returns>
+            The URL of the page that the node represents. The default is <see cref="F:System.String.Empty"/>.
+            </returns>
+            <exception cref="T:System.InvalidOperationException">
+            The node is read-only.
+            </exception>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Title">
+            <summary>
+            Gets or sets the title of the <see cref="T:System.Web.SiteMapNode"/> object.
+            </summary>
+            <value></value>
+            <returns>
+            A string that represents the title of the node. The default is <see cref="F:System.String.Empty"/>.
+            </returns>
+            <exception cref="T:System.InvalidOperationException">
+            The node is read-only.
+            </exception>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Description">
+            <summary>
+            Gets or sets a description for the <see cref="T:System.Web.SiteMapNode"/>.
+            </summary>
+            <value></value>
+            <returns>
+            A string that represents a description of the node; otherwise, <see cref="F:System.String.Empty"/>.
+            </returns>
+            <exception cref="T:System.InvalidOperationException">
+            The node is read-only.
+            </exception>
+        </member>
+        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.IsDynamic">
+            <summary>
+            Gets or sets a value indicating whether this instance is dynamic.
+            </summary>
+            <value>
+            	<c>true</c> if this instance is dynamic; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MvcSiteMapProvider.MultiModuleProvider.ZephyrMvcSiteMapNode.Module">
+            <summary>
+            Gets or sets the moduleName attribute.
+            </summary>
+            <value>Name of the module assembly</value>
         </member>
         <member name="T:MvcSiteMapProvider.Web.XmlSiteMapController">
             <summary>
@@ -2379,194 +2588,6 @@
             Gets the parent node.
             </summary>
             <value>The parent node.</value>
-        </member>
-        <member name="T:MvcSiteMapProvider.MvcSiteMapNode">
-            <summary>
-            MvcSiteMapNode class
-            </summary>
-        </member>
-        <member name="M:MvcSiteMapProvider.MvcSiteMapNode.#ctor(System.Web.SiteMapProvider,System.String,System.Collections.Specialized.NameValueCollection,System.String)">
-            <summary>
-            Initializes a new instance of the <see cref="T:MvcSiteMapProvider.MvcSiteMapNode"/> class.
-            </summary>
-            <param name="provider">The provider.</param>
-            <param name="key">The key.</param>
-            <param name="explicitResourceKeys">The explicit resource keys.</param>
-            <param name="implicitResourceKey">The implicit resource key.</param>
-        </member>
-        <member name="M:MvcSiteMapProvider.MvcSiteMapNode.Clone">
-            <summary>
-            Creates a new node that is a copy of the current node.
-            </summary>
-            <returns>
-            A new node that is a copy of the current node.
-            </returns>
-        </member>
-        <member name="M:MvcSiteMapProvider.MvcSiteMapNode.Clone(System.String)">
-            <summary>
-            Creates a new node that is a copy of the current node with a specified key.
-            </summary>
-            <param name="key">The key.</param>
-            <returns>
-            A new node that is a copy of the current node.
-            </returns>
-        </member>
-        <member name="M:MvcSiteMapProvider.MvcSiteMapNode.GetRouteData(System.Web.HttpContextBase)">
-            <summary>
-            Gets the route data associated with the current node.
-            </summary>
-            <param name="httpContext">The HTTP context.</param>
-            <returns>The route data associated with the current node.</returns>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.MetaAttributes">
-            <summary>
-            Gets the meta attributes.
-            </summary>
-            <value>The meta attributes.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Route">
-            <summary>
-            Gets or sets the route.
-            </summary>
-            <value>The route.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Area">
-            <summary>
-            Gets or sets the area.
-            </summary>
-            <value>The area.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Controller">
-            <summary>
-            Gets or sets the controller.
-            </summary>
-            <value>The controller.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Action">
-            <summary>
-            Gets or sets the action.
-            </summary>
-            <value>The action.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Clickable">
-            <summary>
-            Gets or sets a value indicating whether this <see cref="T:MvcSiteMapProvider.MvcSiteMapNode"/> is clickable.
-            </summary>
-            <value><c>true</c> if clickable; otherwise, <c>false</c>.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.LastModifiedDate">
-            <summary>
-            Gets or sets the last modified date.
-            </summary>
-            <value>The last modified date.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.ChangeFrequency">
-            <summary>
-            Gets or sets the change frequency.
-            </summary>
-            <value>The change frequency.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.UpdatePriority">
-            <summary>
-            Gets or sets the update priority.
-            </summary>
-            <value>The update priority.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.TargetFrame">
-            <summary>
-            Gets or sets the target frame.
-            </summary>
-            <value>The target frame.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.ImageUrl">
-            <summary>
-            Gets or sets the image URL.
-            </summary>
-            <value>The image URL.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.DynamicNodeProvider">
-            <summary>
-            Gets or sets the dynamic node provider.
-            </summary>
-            <value>The dynamic node provider.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.UrlResolver">
-            <summary>
-            Gets or sets the site map node URL resolver.
-            </summary>
-            <value>The site map node URL resolver.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.VisibilityProvider">
-            <summary>
-            Gets or sets the visibility provider.
-            </summary>
-            <value>The visibility provider.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.PreservedRouteParameters">
-            <summary>
-            Gets or sets the preserved route parameter names (= values that will be used from the current request route).
-            </summary>
-            <value>
-            The preserved route parameter names.
-            </value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.InheritedRouteParameters">
-            <summary>
-            Gets or sets the inherited route parameters (= Route values that should be inherited from the parent sitemap node. This is not a replacement for the SiteMapPreserveRouteDataAttribute.)
-            </summary>
-            <value>
-            The inherited route parameters.
-            </value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.RouteValues">
-            <summary>
-            Gets or sets the route values.
-            </summary>
-            <value>The route values.</value>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Url">
-            <summary>
-            Gets or sets the URL of the page that the <see cref="T:System.Web.SiteMapNode"/> object represents.
-            </summary>
-            <value></value>
-            <returns>
-            The URL of the page that the node represents. The default is <see cref="F:System.String.Empty"/>.
-            </returns>
-            <exception cref="T:System.InvalidOperationException">
-            The node is read-only.
-            </exception>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Title">
-            <summary>
-            Gets or sets the title of the <see cref="T:System.Web.SiteMapNode"/> object.
-            </summary>
-            <value></value>
-            <returns>
-            A string that represents the title of the node. The default is <see cref="F:System.String.Empty"/>.
-            </returns>
-            <exception cref="T:System.InvalidOperationException">
-            The node is read-only.
-            </exception>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.Description">
-            <summary>
-            Gets or sets a description for the <see cref="T:System.Web.SiteMapNode"/>.
-            </summary>
-            <value></value>
-            <returns>
-            A string that represents a description of the node; otherwise, <see cref="F:System.String.Empty"/>.
-            </returns>
-            <exception cref="T:System.InvalidOperationException">
-            The node is read-only.
-            </exception>
-        </member>
-        <member name="P:MvcSiteMapProvider.MvcSiteMapNode.IsDynamic">
-            <summary>
-            Gets or sets a value indicating whether this instance is dynamic.
-            </summary>
-            <value>
-            	<c>true</c> if this instance is dynamic; otherwise, <c>false</c>.
-            </value>
         </member>
         <member name="T:MvcSiteMapProvider.MvcSiteMapException">
             <summary>
@@ -3430,27 +3451,6 @@
             </summary>
             <param name="message">Message</param>
             <param name="innerException">Inner Exception</param>
-        </member>
-        <member name="T:MvcSiteMapProvider.MultiModuleProvider.ZephyrSiteMapProvider">
-            <summary>
-            Adds support for integrating MvcSitemap.sitemap file from multiple assemblies
-            </summary>
-        </member>
-        <member name="T:MvcSiteMapProvider.MultiModuleProvider.ZephyrMvcSiteMapNode">
-            <summary>
-            MvcSiteMapNode class
-            </summary>
-        </member>
-        <member name="P:MvcSiteMapProvider.MultiModuleProvider.ZephyrMvcSiteMapNode.Module">
-            <summary>
-            Gets or sets the moduleName attribute.
-            </summary>
-            <value>Name of the module assembly</value>
-        </member>
-        <member name="T:MvcSiteMapProvider.MultiModuleProvider.SiteMapProviderEventHandler">
-            <summary>
-            Event handler to add nodes from multiple assemblies Mvc.Sitemap files embedded resources
-            </summary>
         </member>
     </members>
 </doc>

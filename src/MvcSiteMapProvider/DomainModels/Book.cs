@@ -27,8 +27,8 @@ using Zephyr.Domain;
 namespace DomainModels
 {
     public class Book : DomainEntity
-    {        
-        public  Book()
+    {
+        public Book()
         {
             this.PublishedDate = DateTime.Now;
         }
@@ -39,9 +39,9 @@ namespace DomainModels
         public virtual BookCategory? Category { get; set; }
 
         public virtual string BookDescription { get; set; }
-        
+
         public virtual DateTime PublishedDate { get; set; }
-                
+
         public virtual Publisher Publisher { get; set; }
 
         public virtual IList<Author> Authors { get; set; }

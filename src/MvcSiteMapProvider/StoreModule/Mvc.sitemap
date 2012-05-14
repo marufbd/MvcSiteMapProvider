@@ -3,13 +3,15 @@
             xmlns="https://github.com/marufbd/MvcSiteMapProvider"            
             enableLocalization="true">
 
-    <mvcSiteMapNode title="Books/Store Module" controller="Store" action="Index">
-        <mvcSiteMapNode title="Book Details/Store module" controller="Store" action="Details" visibility="!MenuHelper"/>
-        <mvcSiteMapNode title="Edit book/Store module" controller="Store" action="SaveBook" visibility="!MenuHelper"/>
-        <mvcSiteMapNode title="Add book/Store module" controller="Store" action="AddBook" visibility="!MenuHelper"/>
-        <mvcSiteMapNode title="external link/Store module" url="http://www.google.com" />
 
-        <mvcSiteMapNode title="Store module/Parent Home" parentKey="Home" url="http://www.yahoo.com" />
+    <mvcSiteMapNode title="Publishers" action="List" controller="Publisher">
+        <mvcSiteMapNode title="Details/Pub module" controller="Publisher" action="Details" visibility="!MenuHelper"/>
+        <mvcSiteMapNode title="New Publisher/Pub module" controller="Publisher" action="Create" visibility="!MenuHelper"/>
+        <mvcSiteMapNode title="Edit/Pub module" controller="Publisher" action="Edit" visibility="!MenuHelper"/>
+                
+        <mvcSiteMapNode title="external link/Publisher module" url="http://www.google.com" />
+
+        <mvcSiteMapNode title="Publisher module/Parent Home" parentKey="Home" url="http://www.yahoo.com" />
     </mvcSiteMapNode>
 
 </mvcSiteMap>

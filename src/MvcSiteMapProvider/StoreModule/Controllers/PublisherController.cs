@@ -10,15 +10,16 @@ namespace StoreModule.Controllers
 {
     public class PublisherController : ZephyrCRUDController<Publisher>
     {
-        public PublisherController(IRepository<Publisher> repository) : base(repository)
+        public PublisherController(IRepository<Publisher> repository)
+            : base(repository)
         {
 
-        }        
+        }
 
         [HttpPost]
         public ActionResult Edit(Publisher publisher)
-        { 
-            if(ModelState.IsValid)
+        {
+            if (ModelState.IsValid)
             {
                 //always use Unit of work for save/update
                 using (UnitOfWorkScope.Start())
@@ -27,10 +28,10 @@ namespace StoreModule.Controllers
 
                     repo.SaveOrUpdate(publisher);
                     return RedirectToAction("List");
-                } 
+                }
             }
 
-            return View("Edit", new EditViewModel<Publisher>(){Model = publisher});
-        }        
+            return View("Edit", new EditViewModel<Publisher>() { Model = publisher });
+        }
     }
 }

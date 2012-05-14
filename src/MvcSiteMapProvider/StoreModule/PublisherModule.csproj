@@ -8,8 +8,8 @@
     <ProjectGuid>{507EE0F1-2183-4C42-8A7F-568CA0E24197}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StoreModule</RootNamespace>
-    <AssemblyName>StoreModule</AssemblyName>
+    <RootNamespace>PublisherModule</RootNamespace>
+    <AssemblyName>PublisherModule</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

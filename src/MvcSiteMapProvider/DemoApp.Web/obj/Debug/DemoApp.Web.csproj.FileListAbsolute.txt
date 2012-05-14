@@ -64,15 +64,12 @@ D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\Micr
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\MiniProfiler.dll
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\MvcSiteMapProvider.dll
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\NHibernate.dll
-D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\StoreModule.dll
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\WebActivator.dll
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\Zephyr.dll
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\Zephyr.Web.Mvc.dll
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\DomainModels.pdb
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\MvcSiteMapProvider.pdb
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\MvcSiteMapProvider.xml
-D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\StoreModule.pdb
-D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\FluentNHibernate.pdb
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\Iesi.Collections.xml
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\Microsoft.Practices.ServiceLocation.pdb
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\Microsoft.Practices.ServiceLocation.xml
@@ -88,3 +85,6 @@ D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\Cast
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\NHibernate.Envers.dll
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\NHibernate.Envers.xml
 D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\inflector_extension.dll
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\FluentNHibernate.xml
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\PublisherModule.dll
+D:\MyDev\Projects\MvcSiteMapProvider\src\MvcSiteMapProvider\DemoApp.Web\bin\PublisherModule.pdb
